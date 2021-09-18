@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+}
+.day {
+  border: 1px solid gray;
+  border-radius: 5px;
+  overflow-y: scroll;
+  height: max(92vh, 600px);
+}
+
+.day-wrapper {
+  height: auto;
+}
+.hour {
+  height: 100px;
+  display: flex;
+  position: relative;
+}
+.top,
+.bottom {
+  height: 50px;
+}
+.timing {
+  width: 25%;
+  align-self: center;
+}
+.meeting {
+  position: absolute;
+  width: 75%;
+  background: deepskyblue;
+  height: 100%;
+  right: 0px;
+  z-index: 1;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  font-size: 80%;
+  border: 1px solid white;
+}
+.separator {
+  background: gray;
+  width: 75%;
+  margin: 0px;
+  align-self: center;
+}
